@@ -13278,7 +13278,9 @@ lpmZmZmZWYP5ZBhmZmZmZmYN5oGWmZmZmZlZg3mgZWZmZmZm1mAeaJmZmZmZmTWYB1pmZmZmZmYN
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> I am choosing the graph with max_depth of 10. The training curve becomes near horizontal as we keep adding more points. It is similar in testing curve as well. After a certain value of number of points it does not add any significant changes to the score. In this graph it looks like after 200 points, there is no need to add more points to the dataset.</p>
+<p><strong>Answer: </strong> I am choosing the graph with max_depth of 10. The training curve initially drops and then becomes near horizontal as we keep adding more points.</p>
+<p>In testing curve, initially the score improves rapidly as we add more points and then it becomes a near horizontal line depicting that adding more points does not add anything to the score. However at the end of the curve it is observed at addding more points is actually detrimental to the score.</p>
+<p>The observations above indicate that beyond a certain number of points it does not add any significant changes to the score and that may be the optimal value for this model. In this graph it looks like after 200 points, there is no need to add more points to the dataset.</p>
 
 </div>
 </div>
